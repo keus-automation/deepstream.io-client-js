@@ -1,5 +1,5 @@
 {
-  "name": "@deepstream/client",
+  "name": "@keus-automation/deepstream-client",
   "version": "5.2.4",
   "description": "the javascript client for deepstream.io",
   "keywords": [
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/deepstreamIO/deepstream.io-client-js.git"
+    "url": "git@github.com:keus-automation/deepstream.io-client-js.git"
   },
   "dependencies": {
     "@deepstream/protobuf": "^1.0.4",

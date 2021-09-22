@@ -446,7 +446,7 @@ export class Connection {
     if (this.endpoint.getTimeSinceLastMessage() > heartBeatTolerance) {
       this.services.timerRegistry.remove(this.heartbeatIntervalTimeout!)
       this.services.logger.error({ topic: TOPIC.CONNECTION }, EVENT.HEARTBEAT_TIMEOUT)
-      this.endpoint.close()
+      this.endpoint.terminate()
       return
     }
 

@@ -42,6 +42,7 @@ export interface TimerRegistry {
 
 export interface Socket {
   close: () => void
+  terminate: () => void
   onparsedmessages: (messages: Message[]) => void
   onclosed: () => void
   onopened: () => void
