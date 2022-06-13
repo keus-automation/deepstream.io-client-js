@@ -1,6 +1,6 @@
 {
   "name": "@keus-automation/deepstream-client",
-  "version": "5.2.4",
+  "version": "6.0.3",
   "description": "the javascript client for deepstream.io",
   "keywords": [
     "deepstream",
@@ -38,8 +38,8 @@
     "url": "git@github.com:keus-automation/deepstream.io-client-js.git"
   },
   "dependencies": {
-    "@deepstream/protobuf": "^1.0.4",
-    "protobufjs": "^6.10.2",
+    "@deepstream/protobuf": "^1.0.6",
+    "protobufjs": "^6.11.3",
     "ws": "^7.4.0"
   },
   "browser": {
@@ -77,7 +77,7 @@
   "bugs": {
     "url": "https://github.com/deepstreamIO/deepstream.io-client-js/issues"
   },
-  "homepage": "http://deepstream.io",
+  "homepage": "http://deepstreamio.github.io",
   "eslintConfig": {
     "extends": "deepstream"
   },

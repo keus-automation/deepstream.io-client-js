@@ -1,3 +1,53 @@
+## [6.0.3] - 2022.06.05
+
+### Misc
+
+- Updating dependencies
+
+## [6.0.2] - 2022.06.02
+
+### Task
+
+- RPC provider callback now can return the rpcRequestorName and rpcRequestorData as third parameter if the server configuration mandates they are sent to the provider.
+
+## [6.0.1] - 2022.04.22
+
+### Fix
+
+- Add missing return statements
+
+### Misc
+
+- Remove yarn.lock
+
+## [6.0.0] - 2022.03.17
+
+### Task
+
+- Handle write ack errors now sent by deepstream server >= v6.1.0. This comes with some changes to state machine logic.
+
+### Fix
+
+- Various error logs
+
+## [5.2.7] - 2022.02.20
+
+### Misc
+
+- Updating dependencies
+
+## [5.2.6] - 2022.01.09
+
+### Fix
+
+- Add missing read registry
+
+## [5.2.5] - 2021.09.24
+
+### Misc
+
+- Updating dependencies
+
 ## [5.2.4] - 2021.04.05
 
 ### Misc
